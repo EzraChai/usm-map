@@ -112,7 +112,17 @@
 	let open = $state(markers.map(() => false));
 </script>
 
-<div class=" min-h-screen">
+<svelte:head>
+	<title>USM Bus Routes</title>
+	<meta
+		name="description"
+		content="Explore the bus routes at Universiti Sains Malaysia (USM) with interactive markers and routes."
+	/>
+	<meta property="og:title" content="USM Bus Routes" />
+	<meta property="og:description" content="Explore the bus routes at Universiti Sains" />
+</svelte:head>
+
+<div class="min-h-screen">
 	<MapLibre
 		center={[100.2971, 5.3573]}
 		zoom={14.9}
