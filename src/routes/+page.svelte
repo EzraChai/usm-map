@@ -44,7 +44,7 @@
 			name: 'Padang Kawad'
 		},
 		{
-			lngLat: [100.29333471751437, 5.3564138776637265],
+			lngLat: [100.29519498025712, 5.355836522440214],
 			name: 'Desasiswa Indah Kembara - Padang Kawad'
 		},
 		{
