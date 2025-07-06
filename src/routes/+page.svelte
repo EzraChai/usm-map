@@ -46,7 +46,7 @@
 		},
 		{
 			lngLat: [100.2965, 5.3543],
-			name: 'Aman'
+			name: 'Damai'
 		},
 		{
 			lngLat: [100.2979, 5.355],
@@ -63,6 +63,10 @@
 		{
 			lngLat: [100.3067, 5.3573],
 			name: 'SOLLAT'
+		},
+		{
+			lngLat: [100.304, 5.3567],
+			name: 'Subaidah'
 		},
 		{
 			lngLat: [100.3078, 5.3566],
@@ -95,7 +99,7 @@
 		minZoom={14.9}
 		maxBounds={[
 			[100.2871, 5.3473], // Southwest corner
-			[100.3092, 5.3673] // Northeast corner
+			[100.3102, 5.3673] // Northeast corner
 		]}
 		style="https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
 	>
