@@ -164,11 +164,21 @@
 		{/if}
 		<Control class="flex flex-col gap-y-2">
 			<ControlGroup>
-				<ControlButton onclick={() => (busRoute = busRoute == 'A' ? '' : 'A')}>A</ControlButton>
-				<ControlButton onclick={() => (busRoute = busRoute == 'B' ? '' : 'B')}>B</ControlButton>
-				<ControlButton onclick={() => (busRoute = busRoute == 'C' ? '' : 'C')}>C</ControlButton>
-				<ControlButton onclick={() => (busRoute = busRoute == 'D' ? '' : 'D')}>D</ControlButton>
-				<ControlButton onclick={() => (busRoute = busRoute == 'E' ? '' : 'E')}>E</ControlButton>
+				<ControlButton class="font-bold" onclick={() => (busRoute = busRoute == 'A' ? '' : 'A')}>
+					A</ControlButton
+				>
+				<ControlButton class="font-bold" onclick={() => (busRoute = busRoute == 'B' ? '' : 'B')}>
+					B</ControlButton
+				>
+				<ControlButton class="font-bold" onclick={() => (busRoute = busRoute == 'C' ? '' : 'C')}>
+					C</ControlButton
+				>
+				<ControlButton class="font-bold" onclick={() => (busRoute = busRoute == 'D' ? '' : 'D')}>
+					D</ControlButton
+				>
+				<ControlButton class="font-bold" onclick={() => (busRoute = busRoute == 'E' ? '' : 'E')}>
+					E</ControlButton
+				>
 			</ControlGroup>
 		</Control>
 	</MapLibre>
